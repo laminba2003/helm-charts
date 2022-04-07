@@ -1,0 +1,21 @@
+apiVersion: v2
+name: spring-rest
+description: A SpringBoot Helm chart for Kubernetes
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
+keywords:
+  - springboot
+  - java
+  - rest
+  - api
+  - keycloak
+  - wavefront
+  - redis
+home: https://laminba2003.github.io/spring-rest-services/
+icon: https://laminba2003.github.io/spring-rest-services/icon.svg
+sources:
+  - https://github.com/laminba2003/spring-rest-services
+maintainers:
+  - name: mamadou lamine ba
+    email: laminba2003@gmail.com
