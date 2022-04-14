@@ -26,6 +26,9 @@ serviceAccount:
   # If not set and create is true, a name is generated using the fullname template
   name: ""
 
+serviceMonitor:
+  enabled: false
+
 podAnnotations: {}
 
 podSecurityContext: {}
@@ -70,8 +73,6 @@ api:
       password: cGFzc2Vy
     jwt:
       jwk: "http://keycloak/auth/realms/training/protocol/openid-connect/certs"
-    wavefront:
-      token: YThlYzY3MGUtNjc1OS00YWUzLWE0MzUtOTNjY2Y2ODNlZTIy
     redis:
       host: redis-master
       port: 6379

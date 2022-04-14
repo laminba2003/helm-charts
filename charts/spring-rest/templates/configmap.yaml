@@ -3,7 +3,6 @@ kind: ConfigMap
 metadata:
   name: {{ include "deployment.fullname" . }}
 data:
-  management.metrics.export.wavefront.uri: https://wavefront.surf
   spring.datasource.url: {{ .Values.api.configuration.datasource.url }}
   spring.jpa.database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
   spring.security.oauth2.resourceserver.jwt.jwk-set-uri: {{ .Values.api.configuration.jwt.jwk }}
