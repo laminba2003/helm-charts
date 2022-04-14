@@ -10,7 +10,7 @@ keywords:
   - rest
   - api
   - keycloak
-  - wavefront
+  - micrometer
   - redis
 home: https://laminba2003.github.io/spring-rest-services/
 icon: https://laminba2003.github.io/spring-rest-services/icon.svg
